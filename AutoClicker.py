@@ -18,10 +18,10 @@ except ImportError:
 
 __title__ = 'Threaded Auto Clicker'
 __author__ = 'BitMan64'
-__version__ = '1.0.0'
+__version__ = '1.0.1'
 __ver_major__ = 1
 __ver_minor__ = 0
-__ver_patch__ = 0
+__ver_patch__ = 1
 
 def delaySet():
     try:
@@ -34,7 +34,7 @@ def delaySet():
 
 class ClickMouse(Thread):
     def __init__(self, mouse, button, delay):
-        Thread.__init__()
+        Thread.__init__(self)
         self.mouse = mouse
         self.button = button
         self.delay = float(delay)
