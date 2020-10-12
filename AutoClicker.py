@@ -27,16 +27,14 @@ __ver_patch__ = 0
 TOGGLEDELAY = 1
 
 def delaySet():
-    def loop():
-        while True:
-            try:
-                delay = 1 / int(input('Enter clicks per seccond: '))
-            except ValueError:
-                print('Please enter a valid number.')
-            else:
-                break
-        return delay
-    return loop()
+    while True:
+        try:
+            delay = 1 / int(input('Enter clicks per seccond: '))
+        except ValueError:
+            print('Please enter a valid number.')
+        else:
+            break
+    return delay
 
 class ClickMouse(Thread):
     """Thread that uses a mouse object to click a given button with a delay."""
