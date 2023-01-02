@@ -46,6 +46,7 @@ def delay_set() -> float:
 
 class ClickMouse(Thread):
     """Thread that uses a mouse object to click a given button with a delay."""
+    __slots__ = ('mouse', 'button', 'delay', 'last_toggle', 'click', 'active')
     def __init__(self,
                  mouse: Controller,
                  button: Button,
