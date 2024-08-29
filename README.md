@@ -3,7 +3,7 @@ A simple left and right click autoclicker with adjustable speed in a text-based 
 ``` diff
 - Note: Current Version does not seem to be functioning due to unknown reasons.
 
-- This project is no longer maintained, and will not be updated.
+- This project is no longer maintained, and will not be updated. And is therfor Archived on 8/28/2024
 ```
 
 # How to use:
