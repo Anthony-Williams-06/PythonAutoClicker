@@ -1,6 +1,6 @@
 # PythonAutoClicker
 A simple left and right click autoclicker with adjustable speed in a text-based ui
-``` diff
+```
 - Note: Current Version does not seem to be functioning due to unknown reasons. This project is no longer maintained, and will not be updated.
 ```
 
